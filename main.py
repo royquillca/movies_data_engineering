@@ -21,7 +21,7 @@ database = peewee.MySQLDatabase(
 # Creación de las tablas
 
 class AmazonPrime(peewee.Model):
-    # show_id = peewee.IntegerField(autoincrement=True,primary_key=True)
+    show_id = peewee.PrimaryKeyField()
     type = peewee.CharField(max_length=50)
     title = peewee.CharField(max_length=100)
     director = peewee.CharField(max_length=50)
@@ -38,7 +38,7 @@ class AmazonPrime(peewee.Model):
         db_table = 'amazon_movies'
 
 class DisneyPlus(peewee.Model):
-    # show_id = peewee.IntegerField(autoincrement=True,primary_key=True)
+    show_id = peewee.PrimaryKeyField()
     type = peewee.CharField(max_length=50)
     title = peewee.CharField(max_length=100)
     director = peewee.CharField(max_length=50)
@@ -55,7 +55,7 @@ class DisneyPlus(peewee.Model):
         db_table = 'disney_movies'
 
 class Hulu(peewee.Model):
-    # show_id = peewee.IntegerField(autoincrement=True,primary_key=True)
+    show_id = peewee.PrimaryKeyField()
     type = peewee.CharField(max_length=50)
     title = peewee.CharField(max_length=100)
     director = peewee.CharField(max_length=50)
@@ -72,7 +72,7 @@ class Hulu(peewee.Model):
         db_table = 'hulu_movies'
 
 class Netflix(peewee.Model):
-    # show_id = peewee.IntegerField(autoincrement=True,primary_key=True)
+    show_id = peewee.PrimaryKeyField()
     type = peewee.CharField(max_length=50)
     title = peewee.CharField(max_length=100)
     director = peewee.CharField(max_length=50)
