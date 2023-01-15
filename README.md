@@ -38,7 +38,7 @@ Las consultas a realizar son:
   
 + Cantidad de veces que se repite un género y plataforma con mayor frecuencia del mismo.
     El request debe ser: get_listedin('genero')  
-    Como ejemplo de género pueden usar 'comedy', el cuál deberia devolverles un cunt de 2099 para la plataforma de amazon.
+    Como ejemplo de género pueden usar 'comedy', el cuál deberia devolverles un cunt de 2098 para la plataforma de amazon.
 
 + Actor que más se repite según plataforma y año.
   El request debe ser: get_actor(plataforma, año)
@@ -146,7 +146,7 @@ FAST API Documentation:
 ## **Deadline**
 
 Se les disponibilizará, a su debido tiempo, un form por el canal de Slack para que carguen sus links del repositorio de GitHub.  
-La fecha límite para la entrega es el día **viernes 9 de diciembre a las 12:00 GMT-3**.   
+La fecha límite para la entrega es el día **viernes 9 de diciembre a las 12:00 GMT-3**.
   
 <p align=center>
 <img src = 'https://cdn.memegenerator.es/imagenes/memes/full/0/90/902781.jpg' height = 300></p>
