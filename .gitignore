@@ -1,4 +1,2 @@
-.env
-venv/
-overview.ipynb
-project
+app/.env
+venv
